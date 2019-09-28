@@ -1,17 +1,133 @@
 * {
-  margin:0px;
-  padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+#Header {
+    text-align: center;
+    color: white;
+    font-family: merriweather;
+    font-weight: lighter;
+    background-image: linear-gradient(to right, #662D8C, #ed1e79);
+    font-size: 50px;
+    padding: 40px;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+#NOTE {
+    margin: 15px;
+    color: aliceblue;
+    Font-size: 30px;
+    font-family: merriweather;
+    text-align: center;
+}
+
+#PACKAGE {
+    text-align: center;
+    Font-size: 30px;
+    font-family: merriweather;
+    margin: 30px;
+    padding-left: 10px;
+}
+
+
+/*FLOAT START AND VL LINE ASLO */
+
+#LEFTFLOAT {
+    float: left;
+    Font-size: 30px;
+    font-family: merriweather;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+#VL {
+    border-left: 2px solid black;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+}
+
+#RIGHTfloat {
+    float: right;
+    Font-size: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    font-family: merriweather;
+}
+
+.TEXT {
+    font-size: 19px;
+    margin: -15px;
+    padding: 6px;
+    font-family: merriweather;
+}
+
+#HRLINE {
+    clear: both;
+}
+
+
+/*END HERE WITH FLOAT VL AND TEXT*/
+
+
+/*PACKAGE DETAIL START HERE*/
+
+#DETAIL {
+    background-image: linear-gradient(to right, #da4453, #89216b);
+}
+
+#DETAILHEADER {
+    text-align: center;
+    color: white;
+    font-family: merriweather;
+    font-weight: lighter;
+    font-size: 40px;
+    padding: 40px;
+}
+
+.DETAILCLASS {
+    text-align: leFT;
+    font-size: 15px;
+}
+
+
+/*PERSONAL USES DETAILS*/
+
+#PERSONALUSE {
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    font-family: merriweather;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.USES {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/*WARMINMG NOTE|*/
+
+#WARNINGNOTE {
+    padding: 10PX;
+    margin: 10px;
+    background-image: linear-gradient();
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#DISCOUNTS {
+    color: white;
+    background-image: linear-gradient(to right, red, yellow);
+    font-family: merriweather;
+    padding: 20px;
+    margin: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
 }
